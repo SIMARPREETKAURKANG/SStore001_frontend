@@ -63,7 +63,9 @@
               "browserTarget": "client:build:production"
             },
             "development": {
-              "browserTarget": "client:build:development"
+              "browserTarget": "client:build:development",
+              "port":8081,
+              "open":true
             }
           },
           "defaultConfiguration": "development"
@@ -94,5 +96,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "defa4d11-2a4b-4bd6-b847-bcface5de8fd"
   }
 }
